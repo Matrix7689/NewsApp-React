@@ -1,5 +1,6 @@
 # NewsApp React Website
 <div align="center"><img src="https://i.imgur.com/9c2ZSGX.png"/></div>
+
 [Live website Link](http://hw8react.appspot.com/)
 A responsive website made using ReactJS and NodeJS which displays latest news from different categories from New York Times API and Guardian API.
 
