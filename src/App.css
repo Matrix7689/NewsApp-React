@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+
+.commentbox iframe{
+  overflow:hidden;
+}
+
+.commentbox iframe:after{
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+}
+
+.myLoader{
+  position: fixed;
+  top: 40%;
+  left: 47%;
+}
+
+.boxTitle{
+  text-align: right !important;
+}
+
+.mynavbar{
+  background-image: linear-gradient(to right, #142141 , #395DAF);
+}
+
+.switch_titles{
+  color: white;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.switch_titles_small{
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.switch_titles_small_ny{
+  color: white;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.scard{
+  float: left;
+  padding: 20px;
+  padding-bottom: 35px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border: solid #dedbd2 1px;
+  border-radius: 5px;
+  margin: 15px;
+  height: auto;
+  width: auto;
+}
+
+.scard_link:link, .scard_link:visited, .scard_link:hover, .scard_link:active{
+  color: black;
+  text-decoration: none;
+}
+
+.result_header{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.scard_image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: solid 1px #dedbd2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.scard_content{
+  padding-top: 10px;
+}
+
+.scard_badge{
+  float: right;
+}
+
+.scard_date{
+  font-style: italic;
+  font-weight:500;
+  font-size: 100%;
+}
+
+.hcard{
+  padding: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border: solid #dedbd2 1px;
+  border-radius: 5px;
+  margin: 15px;
+  margin-bottom: 30px;
+  height: auto;
+}
+
+.hcard_link:link, .hcard_link:visited, .hcard_link:hover, .hcard_link:active{
+  color: black;
+  text-decoration: none;
+}
+
+.hcard_image{
+  float: left;
+  object-fit: cover;
+  border: solid 1px #dedbd2;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.share_via_text, .share_buttons{
+  text-align: center;
+}
+
+.expandcard{
+  padding: 15px;
+  padding-bottom: 45px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border: solid #dedbd2 1px;
+  border-radius: 5px;
+  margin: 15px;
+  height: auto;
+}
+
+.expandimage{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.expandicons{
+  float: right;
+  padding-bottom: 5px;
+}
+
+.expanddesc{
+  text-align: justify;
+}
+
+.bookmark_toast{
+  color: black !important;
+}
+
+.tooltips{
+  font-size: 0.9rem !important;
+  border-radius: 5px !important;
+  padding: 8px !important;
+}
+
+.badge_null{
+  display: none;
+}
+
+.badge_world{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #7C4EFF;
+  color: white;
+}
+
+.badge_politics{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #419488;
+  color: white;
+}
+
+.badge_business{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #4696EC;
+  color: white;
+}
+
+.badge_technology{
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 86%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color: #CEDC39;
+    color: black;
+}
+
+.badge_sports{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #F6C244;
+  color: black;
+}
+
+.badge_other{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #6E757C;
+  color: white;
+}
+
+.badge_guard_fav{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #14284A;
+  color: white;
+}
+
+.badge_ny_fav{
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 86%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: #DDDDDD;
+  color: black;
+}
