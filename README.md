@@ -6,7 +6,7 @@ A responsive website made using ReactJS and NodeJS which displays latest news fr
 
 Users can share any article through Facebook, Twitter or Email. Users can also bookmark any article that they like and it is saved locally using HTML5 LocalStorage.
 
-Implemented asynchronous select option to allow users to search for enws based on a particular search keyword.
+Implemented asynchronous select option to allow users to search for news based on a particular search keyword.
 
 PS. This was homework #8 of CSCI 571 - Spring 2020 - Web Technologies - under [Professor Marco Papa](https://viterbi.usc.edu/directory/faculty/Papa/Marco).
 
@@ -20,7 +20,7 @@ git clone https://github.com/Matrix7689/NewsApp-React.git
 ```
 npm install
 ```
-4. Launch the website
+4. Launch the website.
 ```
 npm start
 ```
