@@ -10,6 +10,21 @@ Implemented asynchronous select option to allow users to search for enws based o
 
 PS. This was homework #8 of CSCI 571 - Spring 2020 - Web Technologies - under [Professor Marco Papa](https://viterbi.usc.edu/directory/faculty/Papa/Marco).
 
+## Setup
+1. Install [NodeJS](https://github.com/Matrix7689/NewsApp-React.git).
+2. Clone this repository.
+```
+git clone https://github.com/Matrix7689/NewsApp-React.git
+```
+3. Install the dependencies.
+```
+npm install
+```
+4. Launch the website
+```
+npm start
+```
+
 ## Technologies Used
 - React
 - NodeJS
