@@ -78,10 +78,10 @@ class Register extends Component {
     if(!inputValue)
       return [];
 
-    let queryUrl = 'https://jmparekh.cognitiveservices.azure.com/bing/v7.0/suggestions?q='+inputValue;
+    let queryUrl = 'YOUR_BING_URL/suggestions?q='+inputValue;
       const response = await fetch(queryUrl, {
           headers: {
-            'Ocp-Apim-Subscription-Key': '667604a798274043a1a27047b75a5bc2'
+            'Ocp-Apim-Subscription-Key': '#YOUR_SUB_KEY'
           }
         }
       );
