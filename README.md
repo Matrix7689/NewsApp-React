@@ -12,19 +12,15 @@ PS. This was homework #8 of CSCI 571 - Spring 2020 - Web Technologies - under [P
 
 ## Setup
 1. Install [NodeJS](https://github.com/Matrix7689/NewsApp-React.git).
-2. Clone this repository.```
+2. Clone this repository.
 git clone https://github.com/Matrix7689/NewsApp-React.git
-```
-3. Install the dependencies.```
+3. Install the dependencies.
 npm install
-```
-4. Get Bing Autosuggest and Commentbox [API keys](https://github.com/Matrix7689/NewsApp-React) and place them in the following directories:```
+4. Get Bing Autosuggest and Commentbox [API keys](https://github.com/Matrix7689/NewsApp-React) and place them in the following directories:
 src/App.js
 src/components/PageWithComments.js
-```
-4. Launch the website.```
+5. Launch the website.
 npm start
-```
 
 ## Technologies Used
 - React
